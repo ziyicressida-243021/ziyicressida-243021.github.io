@@ -37,8 +37,10 @@
             display: flex;
             background-color: white;
             align-items: center;
+            justify-content: space-between;
             padding: 10px 30px;
             gap: 30px;
+
         }
 
         .dailou2.div {
@@ -46,13 +48,14 @@
             align-items: center;
             padding: 30px 30px;
             font-size: 16px;
+
         }
 
         .call {
             display: flex;
             align-items: center;
+            justify-content: space-between;
             gap: 10px;
-            margin-left: auto;
         }
 
         .call img {
@@ -67,9 +70,13 @@
             gap: 10px;
         }
 
-        .dailou2.contact {
+        .contact {
             background-color: red;
             border: red;
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
         }
     </style>
 </head>
@@ -95,6 +102,7 @@
     <div class="dailou2">
         <div class="logo"><img src="image/ele.png">
         </div>
+
         <div class="content">
             <p1>Home</p1>
             <p2>Services</p2>
@@ -102,12 +110,10 @@
             <p4>Project Details</p4>
             <p5>Contact</p5>
         </div>
-        <div class="call"><img src="image/call.png">
 
+        <div class="call"><img src="image/call.png">
             <p>555-123-4567</p>
-        </div>
-        <div class="hamburger"><img src="image/hamburger.png">
-            <a class="Contact" href="https://www.shopee.com">Contact</a>
+            <a class="contact" href="https://www.shopee.com">Contact</a>
         </div>
     </div>
 </body>

@@ -5,18 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>flexbox3</title>
+    <style>
+        .main {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .bar {
+            display: flex;
+            gap: 20px;
+        }
+    </style>
 </head>
 
 <body>
     <div class="main">
         <div class="logo"><img src="image/logo.png" alt="">
         </div>
-        <div class="bar">
-            <p1>About us</p1>
-            <p2>Services</p2>
-            <p3>Use Cases</p3>
-            <p4>Pricing</p4>
-            <p5>Blog</p5>
+        <div>
+            <div class="bar">
+                <p1>About us</p1>
+                <p2>Services</p2>
+                <p3>Use Cases</p3>
+                <p4>Pricing</p4>
+                <p5>Blog</p5>
+            </div>
         </div>
     </div>
 
