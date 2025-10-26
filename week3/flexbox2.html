@@ -5,12 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>flexbox2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
     <style>
         body {
             background-color: #b8b8b8;
             display: flex;
             flex-direction: column;
             gap: 20px;
+            font-family: "Oxygen", sans-serif;
+
         }
 
         .dailou {
@@ -19,6 +24,7 @@
             justify-content: space-between;
             align-items: center;
             padding: 10px 30px;
+
         }
 
         .dailou.div {
@@ -26,7 +32,7 @@
         }
 
         .hamburger img {
-            width: 25px;
+            width: 23px;
         }
 
         .logo img {
@@ -51,22 +57,28 @@
 
         }
 
+        .right {
+            display: flex;
+            align-items: center;
+        }
+
         .call {
             display: flex;
             align-items: center;
             justify-content: space-between;
             gap: 10px;
+            font-weight: bold;
         }
 
         .call img {
-            width: 25px;
+            width: 23px;
         }
 
         .hamburger {
             margin-left: 15px;
         }
 
-        .dailou2.content {
+        .dailou3.content {
             gap: 10px;
         }
 
@@ -75,13 +87,49 @@
             border: red;
             color: rgb(255, 255, 255);
             text-decoration: none;
-            padding: 10px 20px;
+            padding: 6px 10px;
             border-radius: 5px;
+            font-size: 13px;
+            font-weight: bold;
+
+        }
+
+        .dailou3 {
+            display: flex;
+            background-color: white;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 30px;
+            gap: 30px;
+        }
+
+        .dailou3.div {
+            display: flex;
+            align-items: center;
+            padding: 30px 30px;
+            font-size: 16px;
+        }
+
+        .content {
+            display: flex;
+            gap: 30px;
+        }
+
+        p2 {
+            color: red;
+
+        }
+
+        p {
+            margin: 0px;
+            padding: 0px;
+
         }
     </style>
 </head>
 
 <body>
+
     <div class="dailou">
         <div class="logo"><img src="image/ele.png">
         </div>
@@ -92,14 +140,16 @@
     <div class="dailou2">
         <div class="logo"><img src="image/ele.png">
         </div>
-        <div class="call"><img src="image/call.png">
-            <p>555-123-4567</p>
-        </div>
-        <div class="hamburger"><img src="image/hamburger.png">
+        <div class="right">
+            <div class="call"><img src="image/call.png">
+                <p>555-123-4567</p>
+            </div>
+            <div class="hamburger"><img src="image/hamburger.png">
+            </div>
         </div>
     </div>
 
-    <div class="dailou2">
+    <div class="dailou3">
         <div class="logo"><img src="image/ele.png">
         </div>
 
@@ -116,6 +166,7 @@
             <a class="contact" href="https://www.shopee.com">Contact</a>
         </div>
     </div>
+
 </body>
 
 </html>
