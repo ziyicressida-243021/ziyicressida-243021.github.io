@@ -30,6 +30,7 @@
 
         .call img {
             width: 23px;
+            max-width: 100%;
         }
 
         .logo img {
@@ -46,6 +47,7 @@
             font-size: 13px;
             font-weight: bold;
             padding: 6px 7px;
+            max-width: 100%;
         }
 
         .content {
@@ -58,6 +60,18 @@
             width: 23px;
             max-width: 100%;
             display: none;
+        }
+
+        @media screen and (max-width: 1020px) {
+            body {
+                background-color: aqua;
+            }
+
+            .firstbar {
+                font-size: 15px;
+            }
+
+
         }
     </style>
 </head>
