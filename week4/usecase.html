@@ -29,11 +29,6 @@
         padding-right: 40px;
     }
 
-    .words {
-        display: flex;
-        gap: 40px;
-        align-items: center;
-    }
 
     .content {
         display: flex;
@@ -55,8 +50,8 @@
     }
 
     .hambuger img {
+        display: flex;
         width: 20px;
-        display: none;
         max-width: 100%;
     }
 </style>
@@ -66,24 +61,23 @@
         <div class="toppanel">
             <div class="logo"><img src="image/logo.png" alt="logo">
             </div>
-
-            <div class="content">
-                <div class="words">
+            <div class="rightside">
+                <div class="content">
                     <p1>About us</p1>
                     <p2>Services</p2>
                     <p3>Use Cases</p3>
                     <p4>Pricing</p4>
                     <p5>Blog</p5>
                 </div>
-
-                <div class="requestbutton">
-                    <a class="request" href="https://www.goodreads.com/quotes">Request a quote</a>
-                </div>
-
             </div>
+            <div class="requestbutton">
+                <a class="request" href="https://www.goodreads.com/quotes">Request a quote</a>
+            </div>
+
             <div class="hambuger"><img src="image/hamburger.png" alt="hambuger"></div>
         </div>
     </div>
+
 </body>
 
 </html>
