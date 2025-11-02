@@ -173,6 +173,10 @@
         font-size: 20px;
     }
 
+    .spark img {
+        display: none;
+    }
+
     @media screen and (max-width:770px) {
 
         .content {
@@ -190,18 +194,12 @@
 
         .middlepart {
             flex-direction: column;
-            text-align: center;
+            text-align: left;
             gap: 20px;
             background-color: white;
         }
 
-        .desktoppicture {
-            display: none;
-        }
 
-        .mobilepicture {
-            display: block;
-        }
     }
 </style>
 
@@ -249,6 +247,9 @@
 
         <div class="bottomcontent">
             <div class="bottompart">
+                <div class="spark">
+                    <img src="image/sparkle.png" alt="spark">
+                </div>
                 <div class="bottomleft">
                     <h1>Featured Success Story</h1>
                     <h2>Scaling Success for a
