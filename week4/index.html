@@ -79,17 +79,15 @@
             padding-bottom: 5px;
             width: 80%;
             margin: 0 auto;
-
         }
 
         .exercisebox {
             background-color: rgba(255, 255, 255, 0.6);
             border: 2px solid grey;
             border-radius: 15px;
-            width: 450px;
-            height: 250px;
+            width: calc(100%/3);
+            min-height: 250px;
             text-align: center;
-
         }
 
         .exercisebox a {
@@ -114,10 +112,10 @@
 
         .exerciselist {
             display: flex;
-            justify-content: center;
+            justify-content: space-between;
             gap: 20px;
             margin-top: 30px;
-            flex-wrap: wrap;
+            width: 80%;
         }
 
         .calender img {
