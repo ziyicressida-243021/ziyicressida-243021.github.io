@@ -145,12 +145,12 @@
         width: 40%;
     }
 
-    .bottomleft h1 {
-        font-size: 38px;
+    .desktoph1 {
+        font-size: 18px;
         color: #191A23;
         background-color: #B9FF66;
         border-radius: 10px;
-        text-align: center;
+        text-align: left;
     }
 
     .bottomleft h2 {
@@ -194,6 +194,10 @@
     }
 
     .spark img {
+        display: none;
+    }
+
+    .mobileh1 {
         display: none;
     }
 
@@ -301,8 +305,13 @@
             padding-left: 0;
         }
 
-        .bottomleft h1 {
-            font-size: 30px;
+        .desktoph1 {
+            display: none;
+        }
+
+        .mobileh1 {
+            display: block;
+            font-size: 20px;
             background-color: #191A23;
             color: #B9FF66;
             text-align: left;
@@ -315,6 +324,7 @@
         .bottomright p {
             font-size: 15px;
         }
+
     }
 </style>
 
@@ -365,7 +375,12 @@
                 <img src="image/sparkle.png" alt="spark">
             </div>
             <div class="bottomleft">
-                <h1>Featured Success Story</h1>
+                <div class="desktoph1">
+                    <h1>Featured Success Story</h1>
+                </div>
+                <div class="mobileh1">
+                    <h1>Featured</h1>
+                </div>
                 <h2>Scaling Success for a
                     Leading E-Commerce Brand</h2>
                 <p>Through a comprehensive SEO and PPC strategy, we helped this e-commerce brand increase
