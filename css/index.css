@@ -1,0 +1,154 @@
+  .all {
+      font-family: "Space Grotesk", sans-serif;
+  }
+
+  .header {
+      background-color: #1b1f32;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+
+  .sociallinks {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+  }
+
+  .logo img {
+      width: 55px;
+      align-items: center;
+  }
+
+  .content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-image: url(../imagess/texture.jpg);
+      background-size: cover;
+      background-position: center;
+      padding-left: 30px;
+      padding-right: 30px;
+
+  }
+
+  .profilepicture img {
+      width: 180px;
+      margin-top: 25px;
+  }
+
+  .name h1 {
+      text-align: center;
+      color: white;
+  }
+
+  .name h2 {
+      font-size: 25px;
+      text-align: center;
+      color: white;
+  }
+
+  .name p {
+      color: white;
+      text-align: center;
+  }
+
+  .calender {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      justify-content: center;
+      border-bottom: 2px solid gray;
+      padding-bottom: 5px;
+      width: 80%;
+      margin: 0 auto;
+  }
+
+  .exercisebox {
+      background-color: rgba(255, 255, 255, 0.6);
+      border: 2px solid grey;
+      border-radius: 15px;
+      width: 100%;
+      min-height: 250px;
+      text-align: center;
+  }
+
+  .exercisebox a {
+      display: block;
+      margin-top: 15px;
+      justify-content: center;
+      text-decoration: none;
+      color: black;
+  }
+
+  .bottomrow {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+  }
+
+  .bottomrow .exercisebox {
+      width: 100%;
+      margin-bottom: 25px;
+  }
+
+  .exerciselist {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      margin-top: 30px;
+      width: 80%;
+  }
+
+  .calender img {
+      width: 26px;
+  }
+
+  .footer {
+      background-color: #1b1f32;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 15px;
+  }
+
+  .footer p {
+      margin-top: 8px;
+      color: white;
+      font-size: 14px;
+  }
+
+  @media screen and (max-width: 1020px) {
+      .name h1 {
+          font-size: 30px;
+      }
+
+      .name h2 {
+          font-size: 25px;
+      }
+
+      .name p {
+          font-size: 14px;
+      }
+
+      .calender h3 {
+          font-size: 16px;
+      }
+
+      .calender a {
+          font-size: 10px;
+      }
+
+      .exerciselist {
+          width: 100%;
+          flex-direction: column;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+      }
+  }
