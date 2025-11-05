@@ -3,6 +3,10 @@
         margin-top: 51px;
     }
 
+    .mainlogo {
+        width: 100%;
+    }
+
     .toppanel {
         background-color: white;
         display: flex;
@@ -25,12 +29,11 @@
         text-decoration: none;
         border-radius: 14px;
         font-size: 18px;
-        padding: 20px 35px;
+        padding: 20px 30px;
     }
 
     .right {
         display: flex;
-        justify-content: flex-end;
         align-items: center;
         gap: 50px;
         font-size: 18px;
