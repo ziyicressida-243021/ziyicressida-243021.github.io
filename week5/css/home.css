@@ -1,0 +1,47 @@
+.main2 {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 100px 100px;
+    gap: 35px;
+    padding-top: 40px;
+}
+
+
+.illu img {
+    width: 600px;
+    height: 515px;
+    padding-top: 40px;
+
+}
+
+.paragraph {
+    font-size: 35px;
+    letter-spacing: 0%;
+}
+
+p {
+    font-size: 20px;
+}
+
+.consultation {
+    font-size: 20px;
+    background-color: #191A23;
+    border: #191A23 solid;
+    border-width: 2px;
+    border-radius: 14px;
+    color: white;
+    text-decoration: none;
+    padding: 12px 30px;
+    gap: 10px;
+
+}
+
+.bottom {
+    margin-top: 51px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    gap: 100px;
+    padding: 100px 100px;
+}
