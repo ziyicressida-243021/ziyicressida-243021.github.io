@@ -15,7 +15,7 @@
 
     .bar {
         display: flex;
-        gap: 40px;
+
     }
 
 
@@ -24,9 +24,8 @@
         border: rgb(0, 0, 0) solid;
         border-width: 1px;
         text-decoration: none;
-        padding: 20px 35px;
         border-radius: 14px;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .right {
@@ -34,5 +33,5 @@
         justify-content: flex-end;
         align-items: center;
         gap: 50px;
-        font-size: 20px;
+        font-size: 18px;
     }
