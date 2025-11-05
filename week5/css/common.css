@@ -15,9 +15,8 @@
 
     .bar {
         display: flex;
-
+        gap: 40px;
     }
-
 
     .request {
         color: #191A23;
@@ -26,6 +25,7 @@
         text-decoration: none;
         border-radius: 14px;
         font-size: 18px;
+        padding: 20px 35px;
     }
 
     .right {
