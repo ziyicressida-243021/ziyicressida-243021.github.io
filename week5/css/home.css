@@ -67,7 +67,11 @@ p {
         padding-right: 30px;
     }
 
-    .requestbutton {
+    .request {
         display: none;
+    }
+
+    .hambuger img {
+        display: block;
     }
 }
