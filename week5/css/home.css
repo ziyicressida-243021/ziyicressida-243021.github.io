@@ -46,5 +46,10 @@ p {
     justify-content: space-between;
     background-color: white;
     gap: 10px;
-    padding: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.bottompicture img {
+    max-width: 100%;
 }
