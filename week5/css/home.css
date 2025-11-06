@@ -5,18 +5,22 @@
     padding: 30px;
     gap: 35px;
     padding-top: 40px;
-    width: 50%;
 }
 
+.mainpicture {
+    justify-content: space-between;
+    gap: 35px;
+}
 
 .illu img {
-    width: 200%;
-    padding-top: 40px;
+    max-width: 100%;
+    display: block;
 }
 
 .paragraph {
     font-size: 30px;
     letter-spacing: 0%;
+    width: 50%;
 }
 
 p {
