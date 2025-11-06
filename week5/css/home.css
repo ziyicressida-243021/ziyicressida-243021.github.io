@@ -13,7 +13,7 @@
 }
 
 .illu img {
-    max-width: 100%;
+    max-width: 90%;
     display: block;
 }
 
@@ -50,6 +50,6 @@ p {
     padding-right: 30px;
 }
 
-.bottompicture img {
+.bottom img {
     max-width: 100%;
 }
