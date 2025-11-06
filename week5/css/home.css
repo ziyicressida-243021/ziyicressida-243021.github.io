@@ -97,4 +97,15 @@ p {
         font-size: 20px;
     }
 
+    .consultation {
+        font-size: 18px;
+        background-color: #191A23;
+        border: #191A23 solid;
+        border-width: 1px;
+        border-radius: 14px;
+        color: white;
+        text-decoration: none;
+        padding: 10px 25px;
+        margin-top: 10px;
+    }
 }
