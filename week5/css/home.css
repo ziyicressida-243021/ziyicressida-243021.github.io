@@ -108,4 +108,19 @@ p {
         padding: 10px 25px;
         margin-top: 10px;
     }
+
+    .bottom {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+        gap: 10px;
+        margin-top: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .bottom img {
+        max-width: 70%;
+    }
 }
