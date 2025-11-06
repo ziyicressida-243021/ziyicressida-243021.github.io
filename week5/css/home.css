@@ -18,13 +18,13 @@
 }
 
 .paragraph {
-    font-size: 30px;
+    font-size: 40px;
     letter-spacing: 0%;
     width: 50%;
 }
 
 p {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .consultation {
@@ -41,9 +41,9 @@ p {
 }
 
 .bottom {
-    margin-top: 51px;
+    margin-top: 20px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     background-color: white;
     gap: 30px;
 }
