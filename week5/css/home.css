@@ -24,7 +24,7 @@
 }
 
 p {
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .consultation {
@@ -35,7 +35,7 @@ p {
     border-radius: 14px;
     color: white;
     text-decoration: none;
-    padding: 12px 30px;
+    padding: 14px 30px;
     gap: 10px;
 
 }
@@ -46,6 +46,7 @@ p {
     justify-content: space-between;
     background-color: white;
     gap: 10px;
+    margin-top: 20px;
     padding-left: 30px;
     padding-right: 30px;
 }
