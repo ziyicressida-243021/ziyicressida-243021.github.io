@@ -54,3 +54,20 @@ p {
 .bottom img {
     max-width: 100%;
 }
+
+@media screen and (max-width:990px) {
+
+    .content {
+        display: none;
+
+    }
+
+    .toppanel {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .requestbutton {
+        display: none;
+    }
+}
