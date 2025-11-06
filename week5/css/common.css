@@ -38,3 +38,9 @@
         gap: 50px;
         font-size: 18px;
     }
+
+    .hambuger img {
+        display: none;
+        width: 20px;
+        max-width: 100%;
+    }
