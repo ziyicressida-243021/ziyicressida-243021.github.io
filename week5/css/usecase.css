@@ -76,6 +76,9 @@
 
 .bottomleft {
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .desktoph1 {
@@ -88,10 +91,11 @@
 
 .bottomleft h2 {
     font-size: 25px;
+
 }
 
 .bottomleft p {
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .bottomright {
@@ -109,10 +113,10 @@
 
 .bottomright div {
     box-sizing: border-box;
-    width: calc(35% - 5px);
+    width: calc(34% - 5px);
     aspect-ratio: 1 / 1;
     background-color: #F3F3F3;
-    border-radius: 15px;
+    border-radius: 25px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -122,12 +126,12 @@
 }
 
 .bottomright h3 {
-    font-size: 25px;
+    font-size: 30px;
     margin: 0;
 }
 
 .bottomright p {
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .spark img {
@@ -137,6 +141,7 @@
 .mobileh1 {
     display: none;
 }
+
 
 @media screen and (max-width:990px) {
 
