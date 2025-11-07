@@ -76,7 +76,6 @@
 
 .bottomleft {
     width: 50%;
-
 }
 
 .desktoph1 {
@@ -96,8 +95,7 @@
 }
 
 .bottomright {
-    max-width: 50%;
-    width: 30%;
+    width: 50%;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
@@ -184,7 +182,7 @@
         gap: 20px;
         background-color: white;
         padding-left: 20px 30px;
-        width: 100%;
+
     }
 
     .desktoppicture {
