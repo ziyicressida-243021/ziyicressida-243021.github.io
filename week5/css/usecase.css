@@ -10,7 +10,8 @@
 
 
 .desktoppicture img {
-    width: 100%;
+    width: 70%;
+    display: block;
 }
 
 .desktoppicture {
@@ -21,6 +22,7 @@
     margin-top: 10px;
     width: 100%;
 }
+
 
 .heading h1 {
     font-size: 78px;
@@ -73,7 +75,7 @@
 }
 
 .bottomleft {
-    width: 40%;
+    width: 50%;
 }
 
 .desktoph1 {
