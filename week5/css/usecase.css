@@ -108,7 +108,7 @@
 
 .bottomright div {
     box-sizing: border-box;
-    width: calc(50% - 5px);
+    width: calc(35% - 5px);
     aspect-ratio: 1 / 1;
     background-color: #F3F3F3;
     border-radius: 15px;
@@ -116,7 +116,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 }
 

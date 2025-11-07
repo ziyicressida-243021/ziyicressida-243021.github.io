@@ -1,6 +1,8 @@
     body {
         font-family: "Space Grotesk", sans-serif;
         margin-top: 51px;
+        max-width: 1440px;
+
     }
 
     .mainlogo {
@@ -12,9 +14,6 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        gap: 40px;
-        padding-left: 30px;
-        padding-right: 30px;
     }
 
     .content {
@@ -30,12 +29,12 @@
         border-radius: 14px;
         font-size: 18px;
         padding: 20px 30px;
+        margin-left: 50px;
     }
 
     .rightside {
         display: flex;
         align-items: center;
-        gap: 50px;
         font-size: 18px;
     }
 
