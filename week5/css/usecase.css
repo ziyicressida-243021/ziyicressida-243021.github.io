@@ -81,11 +81,13 @@
     gap: 20px;
 }
 
-.desktoph1 {
-    font-size: 18px;
+.desktoph1 h1 {
+    display: inline-block;
+    font-size: 35px;
     color: #191A23;
     background-color: #B9FF66;
     border-radius: 10px;
+    padding: 8px 10px;
     text-align: left;
 }
 
