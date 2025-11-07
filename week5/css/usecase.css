@@ -91,27 +91,29 @@
 }
 
 .bottomright {
+    width: 30%;
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
-    align-items: center;
-    justify-content: center;
-    margin-top: 0;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 15px;
+    color: #191A23;
+    box-sizing: border-box;
+
 }
 
 .bottomright div {
-    width: 35%;
-    height: 180px;
+    box-sizing: border-box;
+    width: calc(50% - 5px);
+    aspect-ratio: 1 / 1;
     background-color: #F3F3F3;
-    color: #191A23;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
-    gap: 0;
-
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
 }
 
 .bottomright h3 {
