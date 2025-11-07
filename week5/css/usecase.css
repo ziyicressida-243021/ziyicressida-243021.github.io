@@ -58,7 +58,7 @@
 }
 
 .readbutton2 img {
-    width: 30px;
+    width: 30%;
 }
 
 .readbutton2 {
@@ -95,6 +95,7 @@
 }
 
 .bottomright {
+    max-width: 50%;
     width: 30%;
     display: flex;
     flex-wrap: wrap;
@@ -134,4 +135,130 @@
 
 .mobileh1 {
     display: none;
+}
+
+@media screen and (max-width:990px) {
+
+    .content {
+        display: none;
+
+    }
+
+    .toppanel {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .requestbutton {
+        display: none;
+    }
+
+    .readbutton img {
+        display: none;
+    }
+
+    .readbutton p {
+        display: none;
+    }
+
+    .readbutton2 {
+        display: block;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        font-size: 15px;
+    }
+
+    .hambuger img {
+        display: block;
+        width: 25px;
+    }
+
+    .middlepart {
+        flex-direction: column;
+        text-align: left;
+        align-items: flex-start;
+        gap: 20px;
+        background-color: white;
+        padding-left: 20px 30px;
+    }
+
+    .desktoppicture {
+        display: none;
+    }
+
+    .mobilepicture {
+        display: block;
+        width: 50%;
+        margin: 0;
+    }
+
+    .mobilepicture img {
+        width: 100%;
+    }
+
+    .heading {
+        width: 100;
+    }
+
+    .heading h1 {
+        font-size: 55px;
+    }
+
+    .heading p {
+        font-size: 16px;
+    }
+
+    .bottompart {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .bottomcontent {
+        padding: 15px 30px;
+    }
+
+    .spark img {
+        display: block;
+        width: 40px;
+    }
+
+    .readbutton {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-top: 10px;
+        padding-left: 0;
+    }
+
+    .bottomright div {
+        width: 100%;
+    }
+
+    .bottomleft,
+    .bottomright {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .desktoph1 {
+        display: none;
+    }
+
+    .mobileh1 {
+        display: block;
+        font-size: 20px;
+        background-color: #191A23;
+        color: #B9FF66;
+        text-align: left;
+    }
+
+    .bottomleft h2 {
+        font-size: 18px;
+    }
+
+    .bottomright p {
+        font-size: 15px;
+    }
+
 }
