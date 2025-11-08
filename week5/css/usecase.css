@@ -105,7 +105,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
     padding: 20px;
     border-radius: 15px;
     color: #191A23;
@@ -243,6 +243,8 @@
 
     .bottomright div {
         width: 100%;
+        aspect-ratio: unset;
+        height: 250px;
     }
 
     .bottomleft,
@@ -270,5 +272,6 @@
     .bottomright p {
         font-size: 15px;
     }
+
 
 }
