@@ -211,16 +211,15 @@
     }
 
     .heading h1 {
-        font-size: 55px;
+        font-size: 58px;
     }
 
     .heading p {
-        font-size: 16px;
+        font-size: 20px;
     }
 
     .bottompart {
         flex-direction: column;
-        gap: 20px;
     }
 
     .bottomcontent {
@@ -287,13 +286,15 @@
         margin-left: 60px;
     }
 
+    .mobileh1 h1 {
+        font-size: 40px;
+    }
+
     .bottomleft h2 {
         font-size: 20px;
     }
 
-    .bottomright p {
+    .bottomleft p {
         font-size: 15px;
     }
-
-
 }
