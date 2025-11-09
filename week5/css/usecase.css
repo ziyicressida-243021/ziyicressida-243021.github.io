@@ -240,6 +240,11 @@
         padding-left: 0;
     }
 
+    .readbutton2 img {
+        width: 35px;
+        margin-left: 40px;
+    }
+
     .bottomright div {
         width: 100%;
         aspect-ratio: unset;
