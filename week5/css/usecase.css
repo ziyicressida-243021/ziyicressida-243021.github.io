@@ -38,8 +38,6 @@
     display: none;
 }
 
-
-
 .bottomcontent {
     background-color: #191A23;
     color: #F3F3F3;
@@ -101,7 +99,7 @@
 }
 
 .bottomright {
-    width: 100%;
+
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -114,6 +112,7 @@
 }
 
 .bottomright div {
+    max-width: 100%;
     box-sizing: border-box;
     width: calc(34% - 5px);
     aspect-ratio: 1 / 1;
@@ -123,7 +122,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10px;
     text-align: center;
 }
 
