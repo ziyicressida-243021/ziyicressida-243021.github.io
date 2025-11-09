@@ -91,7 +91,6 @@
 
 .bottomleft h2 {
     font-size: 25px;
-
 }
 
 .bottomleft p {
@@ -126,12 +125,13 @@
 }
 
 .bottomright h3 {
-    font-size: 30px;
+    font-size: 33px;
     margin: 0;
 }
 
 .bottomright p {
-    font-size: 20px;
+    max-width: 50%;
+    font-size: 17px;
 }
 
 .spark img {
