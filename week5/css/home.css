@@ -110,8 +110,8 @@ p {
     }
 
     .bottom {
-        margin-top: 10px;
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
         background-color: white;
         gap: 10px;
@@ -121,6 +121,8 @@ p {
     }
 
     .bottom img {
-        max-width: 70%;
+        max-width: 100%;
+        width: calc(100%-5px);
     }
+
 }
