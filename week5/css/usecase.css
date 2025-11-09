@@ -101,7 +101,7 @@
 }
 
 .bottomright {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -245,7 +245,14 @@
     .bottomright div {
         width: 100%;
         aspect-ratio: unset;
-        height: 250px;
+        height: auto;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .bottomright {
+        max-width: 90%;
+        margin: auto;
     }
 
     .bottomleft {
@@ -273,8 +280,7 @@
     }
 
     .bottomleft h2,
-    .bottomleft p,
-    .bottomright {
+    .bottomleft p {
         margin-left: 60px;
     }
 
