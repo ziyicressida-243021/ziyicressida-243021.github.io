@@ -97,7 +97,6 @@
 }
 
 .bottomright {
-
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -142,9 +141,7 @@
 }
 
 
-
 @media screen and (max-width:990px) {
-
     .content {
         display: none;
 
