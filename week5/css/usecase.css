@@ -11,7 +11,7 @@
 
 
 .desktoppicture img {
-    width: 70%;
+    width: 80%;
     display: block;
 }
 
@@ -197,7 +197,7 @@
 
     .mobilepicture {
         display: block;
-        width: 50%;
+        width: 80%;
         margin: 0;
     }
 
