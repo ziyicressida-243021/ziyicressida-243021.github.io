@@ -25,7 +25,8 @@
     align-self: center;
 }
 
-.middlepart {
+.middlepart,
+.middleparttwo {
     display: flex;
     gap: 30px;
     justify-content: center;
@@ -45,6 +46,7 @@
     align-items: center;
     margin: auto;
 }
+
 
 @media screen and (max-width:990px) {
     .middlepart {
