@@ -1,0 +1,36 @@
+.tittle {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.images img {
+    width: 100%;
+}
+
+.middlepart {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    background-color: antiquewhite;
+    border: 2px;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    width: 50%;
+    position: relative;
+    top: -50px;
+    align-items: center;
+    margin: auto;
+}
+
+@media screen and (max-width:990px) {
+    .middlepart {
+        display: flex;
+        flex-direction: column;
+    }
+}
