@@ -21,3 +21,11 @@ body {
 p {
     margin: 5px;
 }
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    width: 20%;
+
+}
