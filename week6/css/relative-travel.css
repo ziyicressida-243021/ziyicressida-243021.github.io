@@ -3,6 +3,7 @@ body {
 }
 
 .travelbox {
+    font-family: "Oxygen", sans-serif;
     padding: 30px 30px;
     width: 50%;
     background-color: white;
