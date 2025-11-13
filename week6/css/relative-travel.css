@@ -1,4 +1,17 @@
- .travelbox {
-     background-color: antiquewhite;
+body {
+    background-color: cadetblue;
+}
 
- }
+.travelbox {
+    padding: 30px 30px;
+    width: 50%;
+    background-color: white;
+    border-radius: 15px;
+    margin: 10px;
+    justify-content: center;
+}
+
+.tarvelpic img {
+    border-radius: 15px;
+    width: 100%;
+}
