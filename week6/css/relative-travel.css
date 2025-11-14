@@ -24,8 +24,20 @@ p {
 
 .icons {
     display: flex;
-    justify-content: center;
-    gap: 8px;
-    width: 20%;
+    gap: 10px;
+}
 
+.icons div {
+    width: 10%;
+    aspect-ratio: 1/1;
+    background-color: rgba(186, 186, 186, 0.375);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons img {
+    width: 40%;
+    border-radius: 0;
 }
