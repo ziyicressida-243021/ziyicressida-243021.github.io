@@ -41,3 +41,14 @@ p {
     width: 40%;
     border-radius: 0;
 }
+
+.buildingicon {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.buildingicon img {
+    width: 10%;
+    border-radius: 0;
+}
