@@ -71,8 +71,9 @@ p {
 .discriptionbox {
     background-color: bisque;
     position: absolute;
+    width: 50%;
     bottom: 20px;
-    left: 20px;
+    right: -80px;
     display: flex;
     gap: 10px;
     padding: 10px 15px;
@@ -91,5 +92,6 @@ p {
 }
 
 .secondcontent {
+    display: flex;
     font-size: 15px;
 }
