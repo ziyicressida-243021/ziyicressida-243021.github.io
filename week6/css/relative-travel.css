@@ -89,15 +89,19 @@ p {
 
 .firstcontent p {
     display: flex;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .firstcontent h3 {
-    font-size: 10px;
+    font-size: 18px;
 }
 
 .secondcontent {
     display: flex;
     flex-direction: row;
     font-size: 15px;
+}
+
+.secondcontent p {
+    color: blue;
 }
