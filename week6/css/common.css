@@ -37,10 +37,44 @@
         display: flex;
         align-items: center;
         font-size: 18px;
+        gap: 10px;
     }
 
     .hambuger img {
         display: none;
         width: 20px;
         max-width: 100%;
+    }
+
+    .menuitem {
+        gap: 20px;
+        display: flex;
+        position: relative;
+    }
+
+    .submenu {
+        display: none;
+        position: absolute;
+        top: 50px;
+        background-color: rgb(238, 238, 238);
+        border: 1px solid #111111;
+        border-radius: 8px;
+        width: 180px;
+
+    }
+
+    .submenu a {
+        display: block;
+        padding: 10px 25px;
+        color: #131423;
+        text-decoration: none;
+    }
+
+    .menuitem:hover .submenu {
+        display: block;
+    }
+
+    .submenu a:hover {
+        background-color: #8d8d8d;
+        border-radius: 8px;
     }
