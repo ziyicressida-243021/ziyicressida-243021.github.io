@@ -1,0 +1,46 @@
+    body {
+        font-family: "Space Grotesk", sans-serif;
+        margin: auto;
+        max-width: 1440px;
+
+    }
+
+    .mainlogo {
+        width: 100%;
+    }
+
+    .toppanel {
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    .content {
+        display: flex;
+        gap: 40px;
+    }
+
+    .request {
+        color: #191A23;
+        border: rgb(0, 0, 0) solid;
+        border-width: 1px;
+        text-decoration: none;
+        border-radius: 14px;
+        font-size: 18px;
+        padding: 20px 30px;
+        margin-left: 50px;
+    }
+
+    .rightside {
+        display: flex;
+        align-items: center;
+        font-size: 18px;
+    }
+
+    .hambuger img {
+        display: none;
+        width: 20px;
+        max-width: 100%;
+    }

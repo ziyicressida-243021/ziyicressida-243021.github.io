@@ -1,0 +1,296 @@
+.middlepart {
+    display: flex;
+    background-color: #F3F3F3;
+    gap: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 25px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.desktoppicture img {
+    width: 80%;
+    display: block;
+}
+
+.desktoppicture {
+    width: 100%;
+}
+
+.heading {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.heading h1 {
+    font-size: 60px;
+}
+
+.heading p {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.mobilepicture {
+    display: none;
+}
+
+.bottomcontent {
+    background-color: #191A23;
+    color: #F3F3F3;
+    padding: 15px 50px;
+    border-radius: 25px;
+    margin-top: 40px;
+}
+
+.readbutton img {
+    width: 30px;
+}
+
+.readbutton {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.readbutton2 img {
+    width: 30%;
+}
+
+.readbutton2 {
+    display: none;
+}
+
+.bottompart {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.bottomleft {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.desktoph1 h1 {
+    display: inline-block;
+    font-size: 35px;
+    color: #191A23;
+    background-color: #B9FF66;
+    border-radius: 10px;
+    padding: 8px 10px;
+    text-align: left;
+}
+
+.bottomleft h2 {
+    font-size: 25px;
+}
+
+.bottomleft p {
+    font-size: 20px;
+}
+
+.bottomright {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    color: #191A23;
+    box-sizing: border-box;
+
+}
+
+.bottomright div {
+    max-width: 100%;
+    box-sizing: border-box;
+    width: calc(34% - 5px);
+    aspect-ratio: 1 / 1;
+    background-color: #F3F3F3;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.bottomright h3 {
+    font-size: 33px;
+    margin: 0;
+}
+
+.bottomright p {
+    max-width: 50%;
+    font-size: 17px;
+}
+
+.spark img {
+    display: none;
+}
+
+.mobileh1 {
+    display: none;
+}
+
+
+@media screen and (max-width:990px) {
+    .content {
+        display: none;
+
+    }
+
+    .toppanel {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .requestbutton {
+        display: none;
+    }
+
+    .readbutton img {
+        display: none;
+    }
+
+    .readbutton p {
+        display: none;
+    }
+
+    .readbutton2 {
+        display: block;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        font-size: 15px;
+        width: 25%;
+    }
+
+    .hambuger img {
+        display: block;
+        width: 25px;
+    }
+
+    .middlepart {
+        flex-direction: column;
+        text-align: left;
+        align-items: flex-start;
+        gap: 20px;
+        background-color: white;
+        padding-left: 20px 30px;
+
+    }
+
+    .desktoppicture {
+        display: none;
+    }
+
+    .mobilepicture {
+        display: block;
+        width: 80%;
+        margin: 0;
+    }
+
+    .mobilepicture img {
+        width: 100%;
+    }
+
+    .heading {
+        width: 100;
+    }
+
+    .heading h1 {
+        font-size: 58px;
+    }
+
+    .heading p {
+        font-size: 20px;
+    }
+
+    .bottompart {
+        flex-direction: column;
+    }
+
+    .bottomcontent {
+        padding: 15px 30px;
+    }
+
+    .spark img {
+        display: block;
+        width: 40px;
+    }
+
+    .readbutton {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-top: 10px;
+        padding-left: 0;
+    }
+
+    .readbutton2 img {
+        width: 35px;
+        margin-left: 40px;
+    }
+
+    .bottomright div {
+        width: 100%;
+        aspect-ratio: unset;
+        height: auto;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .bottomright {
+        max-width: 90%;
+        margin: auto;
+    }
+
+    .bottomleft {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .desktoph1 {
+        display: none;
+    }
+
+    .mobileh1 {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        background-color: #191A23;
+        color: #B9FF66;
+        padding: 5px 10px;
+        border-radius: 8px;
+        font-size: 18px;
+        width: fit-content;
+    }
+
+    .bottomleft h2,
+    .bottomleft p {
+        margin-left: 60px;
+    }
+
+    .mobileh1 h1 {
+        font-size: 40px;
+    }
+
+    .bottomleft h2 {
+        font-size: 20px;
+    }
+
+    .bottomleft p {
+        font-size: 15px;
+    }
+}
