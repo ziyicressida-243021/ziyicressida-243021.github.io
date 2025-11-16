@@ -75,7 +75,7 @@ p {
     bottom: 20px;
     right: -80px;
     display: flex;
-    gap: 10px;
+    gap: 5px;
     padding: 10px 15px;
     border-radius: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
@@ -83,12 +83,17 @@ p {
 }
 
 .romepic img {
-    width: 100%;
-    max-width: 50%;
+    width: 50%;
+}
+
+.textbox {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
 }
 
 .firstcontent p {
-    display: flex;
+    margin: 0;
     font-size: 14px;
 }
 
