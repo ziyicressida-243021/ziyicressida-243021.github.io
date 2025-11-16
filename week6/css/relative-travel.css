@@ -83,15 +83,21 @@ p {
 }
 
 .romepic img {
-    width: 20%;
+    width: 100%;
+    max-width: 50%;
 }
 
-.firstcontent {
+.firstcontent p {
     display: flex;
     font-size: 15px;
 }
 
+.firstcontent h3 {
+    font-size: 10px;
+}
+
 .secondcontent {
     display: flex;
+    flex-direction: row;
     font-size: 15px;
 }
