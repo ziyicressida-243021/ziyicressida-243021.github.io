@@ -30,7 +30,7 @@
         border-radius: 14px;
         font-size: 18px;
         padding: 20px 30px;
-        margin-left: 50px;
+        margin-left: 30px;
     }
 
     .rightside {
@@ -47,7 +47,6 @@
     }
 
     .menuitem {
-        gap: 20px;
         display: flex;
         position: relative;
     }
@@ -60,7 +59,6 @@
         border: 1px solid #111111;
         border-radius: 8px;
         width: 180px;
-
     }
 
     .submenu a {
@@ -68,6 +66,7 @@
         padding: 10px 25px;
         color: #131423;
         text-decoration: none;
+        font-size: 16px;
     }
 
     .menuitem:hover .submenu {
@@ -75,6 +74,39 @@
     }
 
     .submenu a:hover {
+        background-color: #8d8d8d;
+        border-radius: 8px;
+    }
+
+    .menu-item {
+        gap: 10px;
+        display: flex;
+        position: relative;
+    }
+
+    .sub-menu {
+        display: none;
+        position: absolute;
+        top: 50px;
+        background-color: rgb(238, 238, 238);
+        border: 1px solid #111111;
+        border-radius: 8px;
+        width: 180px;
+    }
+
+    .sub-menu a {
+        display: block;
+        padding: 10px 25px;
+        color: #131423;
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+    .menu-item:hover .sub-menu {
+        display: block;
+    }
+
+    .sub-menu a:hover {
         background-color: #8d8d8d;
         border-radius: 8px;
     }
