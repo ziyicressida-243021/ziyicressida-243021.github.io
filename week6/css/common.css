@@ -40,10 +40,8 @@
         gap: 10px;
     }
 
-    .hambuger img {
+    .hambuger {
         display: none;
-        width: 20px;
-        max-width: 100%;
     }
 
     .menuitem {

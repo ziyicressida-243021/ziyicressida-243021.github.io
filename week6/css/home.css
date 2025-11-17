@@ -73,9 +73,13 @@ p {
         display: none;
     }
 
-    .hambuger img {
+    .hambuger {
         display: block;
-        width: 25px;
+    }
+
+    .hambuger img {
+        width: 20px;
+        max-width: 100%;
     }
 
     .mainpicturedesktop {
