@@ -115,10 +115,15 @@ p {
     display: flex;
     flex-direction: row;
     font-size: 15px;
+    gap: 3px;
+}
+
+.secondcontent p1 {
+    color: blue;
 }
 
 .secondcontent p {
-    color: blue;
+    color: black;
 }
 
 .loadingbar {
