@@ -13,14 +13,14 @@ body {
     width: 100%;
     max-width: 400px;
     background-color: white;
-    border-radius: 15px;
+    border-radius: 25px;
     margin: 10px;
     justify-content: center;
     position: relative;
 }
 
 .travelpic img {
-    border-radius: 15px;
+    border-radius: 25px;
     width: 100%;
 }
 
