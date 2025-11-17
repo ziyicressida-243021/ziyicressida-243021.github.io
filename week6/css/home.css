@@ -57,6 +57,16 @@ p {
     display: none;
 }
 
+.usecase {
+    text-decoration: none;
+    color: #191A23;
+}
+
+.usecase :hover {
+    background-color: #B9FF66;
+    border-radius: 8px;
+}
+
 @media screen and (max-width:990px) {
 
     .content {
