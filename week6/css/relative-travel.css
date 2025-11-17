@@ -29,9 +29,21 @@ p {
     margin: 5px;
 }
 
+.travelbox h4 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.travelbox p {
+    font-size: 15px;
+    color: rgb(134, 134, 134);
+    margin-top: 14px;
+}
+
 .icons {
     display: flex;
     gap: 10px;
+    margin-top: 20px;
 }
 
 
@@ -85,7 +97,7 @@ p {
 }
 
 .romepic {
-    width: 30%;
+    width: 25%;
     display: flex;
 }
 
