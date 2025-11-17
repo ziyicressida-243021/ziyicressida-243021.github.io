@@ -1,5 +1,5 @@
 body {
-    background-color: cadetblue;
+    background-color: rgb(255, 255, 255);
 }
 
 .all {
@@ -17,10 +17,11 @@ body {
     margin: 10px;
     justify-content: center;
     position: relative;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .travelpic img {
-    border-radius: 25px;
+    border-radius: 20px;
     width: 100%;
 }
 
@@ -46,13 +47,18 @@ p {
     margin-top: 20px;
 }
 
+.icons div {
+    padding: 5px;
+    background-color: lightgrey;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .icons img {
     width: 20px;
     border-radius: 0;
-    padding: 5px;
-    background-color: lightgrey;
-    border-radius: 50%;
 }
 
 .buildingicon {
@@ -85,7 +91,7 @@ p {
 }
 
 .discriptionbox {
-    background-color: bisque;
+    background-color: rgb(255, 255, 255);
     position: absolute;
     width: 65%;
     bottom: 40px;
