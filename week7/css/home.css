@@ -1,0 +1,140 @@
+.main2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    gap: 35px;
+    padding-top: 40px;
+}
+
+.mainpicturedesktop {
+    justify-content: space-between;
+    gap: 35px;
+}
+
+.illu img {
+    max-width: 90%;
+    display: block;
+}
+
+.paragraph {
+    font-size: 40px;
+    letter-spacing: 0%;
+    width: 50%;
+}
+
+p {
+    font-size: 20px;
+}
+
+.consultation {
+    font-size: 20px;
+    background-color: #191A23;
+    border: #191A23 solid;
+    border-width: 2px;
+    border-radius: 14px;
+    color: white;
+    text-decoration: none;
+    padding: 14px 30px;
+    gap: 10px;
+
+}
+
+.bottom {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.bottom img {
+    max-width: 100%;
+}
+
+.mainpicturemobile {
+    display: none;
+}
+
+.usecase {
+    text-decoration: none;
+    color: #191A23;
+}
+
+.usecase :hover {
+    background-color: #B9FF66;
+    border-radius: 8px;
+}
+
+@media screen and (max-width:990px) {
+
+    .content {
+        display: none;
+
+    }
+
+    .toppanel {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .request {
+        display: none;
+    }
+
+    .hambuger {
+        display: block;
+    }
+
+    .hambuger img {
+        width: 25px;
+        max-width: 100%;
+    }
+
+    .mainpicturedesktop {
+        display: none;
+    }
+
+    .mainpicturemobile {
+        display: block;
+    }
+
+    .paragraph {
+        font-size: 25px;
+        width: 100%;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .consultation {
+        font-size: 18px;
+        background-color: #191A23;
+        border: #191A23 solid;
+        border-width: 1px;
+        border-radius: 14px;
+        color: white;
+        text-decoration: none;
+        padding: 10px 25px;
+        margin-top: 10px;
+    }
+
+    .bottom {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background-color: white;
+        gap: 10px;
+        margin-top: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .bottom img {
+        max-width: 100%;
+        width: calc(100%-5px);
+    }
+
+}
