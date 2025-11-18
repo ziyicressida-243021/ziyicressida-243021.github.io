@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form.html</title>
+    <style>
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+        }
+
+        .heading {
+            font-size: 20px;
+        }
+
+        .namesection {
+            font-size: 18px;
+        }
+
+        .firstname input {
+            padding: 10px;
+            border-radius: 15px;
+            color: grey;
+        }
+
+        .lastname input {
+            padding: 10px;
+            border-radius: 15px;
+            color: blue;
+        }
+
+        .birthdate input {
+            padding: 10px;
+            border-radius: 15px;
+            color: grey;
+        }
+
+        .email input {
+            padding: 10px;
+            border-radius: 15px;
+            color: grey;
+        }
+
+        .homeurl input {
+            padding: 10px;
+            border-radius: 15px;
+            color: grey;
+        }
+
+        .favouritecolor input {
+            padding: 10px;
+            border-radius: 15px;
+            color: grey;
+        }
+
+        .submitbutton input {
+            padding: 10px;
+            border-radius: 15px;
+            color: grey;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="heading">
+        <h1>Registeration Form-Middle School</h1>
+    </div>
+    <div class="namesection">
+        <form action="#">
+            <div class="firstname">
+                <input type="text" id="fname" name="fname" placeholder="First name*" required>
+                <br>
+            </div>
+
+            <div class="lastname">
+                <br>
+                <input type="text" id="lname" name="lname" placeholder="Last name*">
+                <br>
+            </div>
+
+            <div class="birthdate"><br><label for="birth">Date of Birth*</label><br>
+                <input type="date" id="birthday" name="birthday" required>
+                <br>
+            </div>
+
+            <div class="email">
+                <br>
+                <input type="email" id="email" name="email" placeholder="Email*" required><br>
+            </div>
+
+            <div class="homeurl">
+                <br>
+                <input type="url" id="url" name="homepageurl" placeholder="Home Page*" required><br>
+            </div>
+
+            <div class="favouritecolor">
+                <br>
+                <input type="text" id="color" name="color" placeholder="Favourite Colors*">
+                <br>
+            </div>
+
+            <div class="selfintro">
+                <p><label for="selfintroduction">Self Introduction*</label></p>
+                <textarea name="selfintroduction" rows="10" cols="50"></textarea>
+                <br>
+            </div>
+
+            <div class="submitbutton">
+                <br>
+                <input type="submit" value="submit">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
