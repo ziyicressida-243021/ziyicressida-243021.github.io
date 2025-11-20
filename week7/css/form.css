@@ -12,17 +12,17 @@ body {
 }
 
 .birthdate input {
-    color: blueviolet;
+    color: rgb(105, 105, 105);
 }
 
 .submitbutton input {
     padding: 10px;
     border-radius: 15px;
-
+    border: 1px solid rgb(121, 121, 121);
 }
 
 input::placeholder {
-    color: blueviolet;
+    color: rgb(121, 121, 121);
 }
 
 .section1,
