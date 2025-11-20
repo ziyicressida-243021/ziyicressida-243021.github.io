@@ -1,0 +1,60 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+}
+
+.heading {
+    font-size: 20px;
+}
+
+.namesection {
+    font-size: 18px;
+
+}
+
+.firstname input {
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid rgb(121, 121, 121);
+}
+
+.lastname input {
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid rgb(121, 121, 121);
+
+}
+
+.birthdate input {
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid rgb(121, 121, 121);
+    color: blueviolet;
+}
+
+.email input {
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid rgb(121, 121, 121);
+}
+
+.homeurl input {
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid rgb(121, 121, 121);
+}
+
+.favouritecolor input {
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid rgb(121, 121, 121);
+}
+
+.submitbutton input {
+    padding: 10px;
+    border-radius: 15px;
+
+}
+
+input::placeholder {
+    color: blueviolet;
+}
