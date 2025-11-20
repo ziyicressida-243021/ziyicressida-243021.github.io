@@ -58,3 +58,18 @@ body {
 input::placeholder {
     color: blueviolet;
 }
+
+.section1 {
+    display: flex;
+    gap: 10px;
+}
+
+.section2 {
+    display: flex;
+    gap: 10px;
+}
+
+.section3 {
+    display: flex;
+    gap: 10px;
+}
