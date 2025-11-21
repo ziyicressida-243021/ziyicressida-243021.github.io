@@ -1,5 +1,15 @@
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+    background-color: rgb(159, 188, 199);
+}
+
+.all {
+    border: 2px solid rgb(121, 121, 121);
+    border-radius: 15px;
+    background-color: white;
+    padding: 15px;
+    max-width: 650px;
+
 }
 
 .heading {
@@ -16,10 +26,9 @@ body {
 }
 
 .selfintro textarea {
-    width: 630px;
     padding: 10px;
     border-radius: 15px;
-    border: 1px solid rgb(121, 121, 121);
+    border: 2px solid rgb(121, 121, 121);
 }
 
 
@@ -44,8 +53,8 @@ input::placeholder {
 .section1 input,
 .section2 input,
 .section3 input {
-    width: 300px;
+    max-width: 300px;
     padding: 10px;
     border-radius: 15px;
-    border: 1px solid rgb(121, 121, 121);
+    border: 2px solid rgb(121, 121, 121);
 }
