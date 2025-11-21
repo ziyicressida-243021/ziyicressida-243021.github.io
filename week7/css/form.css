@@ -8,8 +8,9 @@ body {
     border-radius: 15px;
     background-color: white;
     padding: 15px;
-    max-width: 650px;
-
+    max-width: 445px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .heading {
@@ -23,6 +24,7 @@ body {
 
 .birthdate input {
     color: rgb(105, 105, 105);
+    width: 160px;
 }
 
 .selfintro textarea {
