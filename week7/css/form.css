@@ -14,7 +14,7 @@ body {
 }
 
 .heading {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .namesection {
@@ -37,7 +37,7 @@ body {
 .submitbutton input {
     padding: 10px;
     border-radius: 15px;
-    border: 1px solid rgb(121, 121, 121);
+    border: 2px solid rgb(121, 121, 121);
 }
 
 input::placeholder {

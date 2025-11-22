@@ -18,9 +18,9 @@
             </div>
 
             <div class="menu-toggle" id="menu-toggle">&#9776;</div>
-            <nav class="menu" id="mobilee-menu"></nav>
+            <nav class="menu" id="mobile-menu"></nav>
 
-            <div class="rightside" id="mobile-menu">
+            <div class="rightside" id="mobilee-menu">
                 <div class="content">
 
                     <div class="menuitem">
@@ -93,6 +93,19 @@
 
     </div>
 
+    <script> toggleButton = document.getElementById("menu-toggle");
+        const menu = document.getElementById("mobilee-menu");
+
+        toggleButton.addEventListener("click", () => {
+            menu.classList.toggle("active");
+
+
+            if (menu.classList.contains("active")) {
+                toggleButton.innerHTML = "&times;";
+            } else {
+                toggleButton.innerHTML = "&#9776;";
+            }
+        });</script>
 
 </body>
 
