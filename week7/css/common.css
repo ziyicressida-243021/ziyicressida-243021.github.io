@@ -115,7 +115,8 @@
         font-size: 30px;
         cursor: pointer;
         display: none;
-        z-index: 1001;
+        z-index: 1000;
+
     }
 
     .menuitem {
@@ -124,6 +125,7 @@
     }
 
     @media screen and (max-width:990px) {
+
         .menu-toggle {
             display: block;
 
@@ -134,9 +136,7 @@
         }
 
         .content {
-            display: none;
-
-
+            display: flex;
         }
 
         .content.active {
