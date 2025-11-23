@@ -115,8 +115,7 @@
         font-size: 30px;
         cursor: pointer;
         display: none;
-        z-index: 100;
-
+        z-index: 1001;
     }
 
     .menuitem {
@@ -128,18 +127,23 @@
 
         .menu-toggle {
             display: block;
-
         }
 
-        .rightside {
+        .menu {
             display: none;
+            flex-direction: column;
+            background-color: #dfdfdf;
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100vh;
+            width: 100%;
+            padding-top: 5rem;
+            text-align: center;
+            z-index: 1000;
         }
 
-        .content {
-            display: flex;
-        }
-
-        .content.active {
+        .menu.active {
             display: flex;
         }
 
