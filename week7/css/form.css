@@ -11,10 +11,13 @@ body {
     max-width: 445px;
     align-items: center;
     justify-content: space-between;
+    margin: auto;
 }
 
 .heading {
     font-size: 16px;
+    margin: auto;
+    text-align: center;
 }
 
 .namesection {
@@ -55,7 +58,6 @@ input::placeholder {
 .section1 input,
 .section2 input,
 .section3 input {
-    max-width: 300px;
     padding: 10px;
     border-radius: 15px;
     border: 2px solid rgb(121, 121, 121);
