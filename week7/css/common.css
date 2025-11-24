@@ -44,7 +44,7 @@
         gap: 10px;
     }
 
-    .menuitem {
+    .menu-item {
         display: flex;
         position: relative;
     }
@@ -67,7 +67,7 @@
         font-size: 16px;
     }
 
-    .menuitem:hover .submenu {
+    .menu-item:hover .submenu {
         display: block;
     }
 
@@ -104,7 +104,7 @@
         display: block;
     }
 
-    .sub-menu a:hover {
+    .submenu a:hover {
         background-color: #8d8d8d;
         border-radius: 8px;
     }
@@ -121,10 +121,6 @@
         gap: 10px;
     }
 
-    .menu-item {
-        display: flex;
-        gap: 10px;
-    }
 
     @media screen and (max-width:990px) {
 
