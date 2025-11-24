@@ -57,6 +57,7 @@
         border: 1px solid #111111;
         border-radius: 8px;
         width: 180px;
+        z-index: 1003;
     }
 
     .submenu a {
@@ -90,6 +91,7 @@
         border: 1px solid #111111;
         border-radius: 8px;
         width: 180px;
+        z-index: 1003;
     }
 
     .sub-menu a {
